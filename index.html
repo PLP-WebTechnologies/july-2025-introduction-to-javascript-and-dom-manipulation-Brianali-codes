@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript assignment.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+      <div class="input-section">
+        <p>1.First section for demonstrating how i can use user inputs as variables and change them on a button click.</p>
+        <input type="text" id="name" placeholder="enter your name">
+        <button id="btn" onclick=sayHello()>submit</button>
+      </div>
+      <hr>
+      <hr>
+      <div class="color-changer-section">
+        <p>2.Second section for demonstrating how i can use button clicks to modify the Dom.</p>
+        <div class="card" id="card">
+          <p id="text1">This is a white card</p>
+        </div>
+        <button onclick=changeWebColor()>Click me to change the color of the card above</button>
+        <hr>
+        <div>
+          <p id="textElement">click the buttons below to change the fonts sizes here</p>
+          <button onclick=fontChanger() id="btn1x">1x</button>
+          <button onclick=fontChanger() id="btn3x">3x</button>
+          <button onclick=fontChanger() id="btn5x">5x</button>
+        </div>
+        <hr>
+        3.Third section for demonstrating how i loop through an array.
+        <p id="hobbies-list">My hobbies</p>
+        <button onclick="listHobbies()">List my Hobbies</button>
+      </div>
+      
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

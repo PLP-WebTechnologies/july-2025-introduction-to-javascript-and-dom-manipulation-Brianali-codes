@@ -1,0 +1,27 @@
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.input-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.color-changer-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: fit-content;
+}
+.card{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px black;
+  padding: 20px;
+  height: 300px;
+  width: 400px;
+}
